@@ -26,9 +26,11 @@ Two datasets of AirBnB for Boston and Seattle which were collected from the link
 
 # Results and analysis:
 
-AirBnb Boston and Seattle dataset were analysed and found some interesting information. These interesting information are published on 
+AirBnb Boston and Seattle dataset were analysed and found some interesting information. These interesting informations are shared below.
 
 * Boston and Seattle Airbnb datasets were collected and compared.
 * Machine learning model was established to predict the rental price for both cities.
 * Featured importance of the trained model were looked and checked if they make sense.
 * List of important amenities were shared as to how host can make more money by providing better services to meet customers need.
+
+
