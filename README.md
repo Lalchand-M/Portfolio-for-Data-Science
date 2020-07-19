@@ -1,16 +1,16 @@
-# [Portfolio of Lalchand M]
+#  [Portfolio of Lalchand M] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
-# [Portfolio for Data Scientiest]
+# [Portfolio for Data Scientiest] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
-# [Analysis of Boston and Seattle AirBnb Data:]
+# [Analysis of Boston and Seattle AirBnb Data:] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
-# [Project Overview:]
+# [Project Overview:] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
-# [About AirBnb:]
+# [About AirBnb:] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
 AirBnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in that locale. Airbnb takes a unique approach toward lodging. Part of the “sharing economy,” Airbnb offers someone’s home as a place to stay instead of a hotel. Host can rent out extra space in their own home and make some extra money for allowing a guest to stay the night.
 
-# [Analysis:]
+# [Analysis:] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
 Based on Industry Standard Process of Data Mining, the Boston and Seatle Airbnb datasets were collected and analysed. 
 
@@ -20,11 +20,11 @@ Three bisinuess questions were asked and answered:
 * What are the most important features to estimate Airbnb rental price?
 * What are the top amenities people needs most?
 
-# [DataSets:]
+# [DataSets:] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
 Two datasets of AirBnB for Boston and Seattle which were collected from the link  http://insideairbnb.com/get-the-data.html
 
-# [Results and analysis:]
+# [Results and analysis:] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
 AirBnb Boston and Seattle dataset were analysed and found some interesting information. These interesting information are published on 
 
