@@ -1,7 +1,3 @@
-# Portfolio of Lalchand M
-
-# Data Science Portfolio:
-
 # [Project 1: Analysis of Boston and Seattle AirBnb Data](https://lalchand-m.github.io/Portfolio-for-Data-Science/)
 
 # Project Overview:
