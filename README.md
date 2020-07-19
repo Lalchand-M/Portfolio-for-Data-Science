@@ -1,6 +1,6 @@
 #  [Portfolio of Lalchand M] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
-#  [Portfolio for Data Scientiest]https://lalchand-m.github.io/Portfolio-for-Data-Science/.
+#  [Portfolio for Data Scientiest] https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
 # [Analysis of Boston and Seattle AirBnb Data:]https://lalchand-m.github.io/Portfolio-for-Data-Science/.
 
