@@ -1,12 +1,12 @@
 # [Portfolio of Lalchand M] (https://lalchand-m.github.io/Portfolio-for-Data-Science/)
 
-# [Data Science Portfolio:]
+# [Data Science Portfolio:](https://lalchand-m.github.io/Portfolio-for-Data-Science/)
 
-# [Analysis of Boston and Seattle AirBnb Data:]
+# [Analysis of Boston and Seattle AirBnb Data:](https://lalchand-m.github.io/Portfolio-for-Data-Science/)
 
-# [Project Overview:]
+# [Project Overview:](https://lalchand-m.github.io/Portfolio-for-Data-Science/)
 
-# [About AirBnb:] 
+# [About AirBnb:](https://lalchand-m.github.io/Portfolio-for-Data-Science/) 
 
 AirBnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in that locale. Airbnb takes a unique approach toward lodging. Part of the “sharing economy,” Airbnb offers someone’s home as a place to stay instead of a hotel. Host can rent out extra space in their own home and make some extra money for allowing a guest to stay the night.
 
