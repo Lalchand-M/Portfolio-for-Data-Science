@@ -1,4 +1,4 @@
-# [Project 1: Analysis of Boston and Seattle AirBnb Data]
+# [Project 1: Analysis of Boston and Seattle AirBnb Data]( https://lalchand-m.github.io/Analysis-of-Boston-and-Seattle-AirBnb-Data/)
 
 # Project Overview:
 
@@ -31,7 +31,7 @@ AirBnb Boston and Seattle dataset were analysed and found some interesting infor
 
 # Number Of Listings: 
 
-We understand from the Data Set that Boston has 7,032 listings with an average of $ 200 per night, while Seattle has 9,562 listings with an average of $ 160 per night.
+We understand from the Data Set that Boston has 7,000 listings with an average of $ 200 per night, while Seattle has 9,000 listings with an average of $ 160 per night.
 
 Understanding of price range: 70% of Boston listings are below $ 250 / night, while 70% of Seattle listings are below $ 200 / night, suggesting that the Airbnb rental price in Seattle is Boston. That is, it is a little cheaper than
 
