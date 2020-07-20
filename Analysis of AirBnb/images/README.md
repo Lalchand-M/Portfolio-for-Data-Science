@@ -1,4 +1,4 @@
-# [Project 1: Analysis of Boston and Seattle AirBnb Data](https://github.com/Lalchand-M/Portfolio-for-Data-Science/edit/master/Analysis%20of%20AirBnb/images/README.md)
+# [Project 1: Analysis of Boston and Seattle AirBnb Data](https://lalchand-m.github.io/Portfolio-for-Data-Science/)
 
 # Project Overview:
 
