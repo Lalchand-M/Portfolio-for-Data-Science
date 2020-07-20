@@ -46,7 +46,7 @@ The 99% listing price is below 600 and we omit the rows above 600 for a more sta
 
 GradientBoostingRegressor was used as a classifier for both data sets and a GridSearch CV of five times was applied to find the best hyperparameter for the classifier. On the other hand, 1/5 of the preprocessed data set was used as test data and the remaining 4/5 were used to train the learning model.
 
-![](Analysis of AirBnb/images/image1.png)
+![](https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/images/image1.png)
 
 # Vital Features in deciding the Rental Price:
 
@@ -54,15 +54,17 @@ GradientBoostingRegressor was used as a classifier for both data sets and a Grid
 
 Latitude and longitude are among the main important features, since the price of a rental largely depends on the location of the property. Host_since is a feature that when hosts start their journey with AirBNB, if there is AirBNB upon starting the host, they probably know that they attract people and make their guests feel more comfortable. Reviews_per_month and number_of_reviews give us information about people who are not only ready to be there, but also leave a comment, which means they enjoy the stay. Some other features like fit, tank_safety and bathroom are also listed above.
 
-
+![](https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/images/image2.png)
 # In Seattle:
 
 Facilities provided by the hosts are looked as an important feature by the travellers. There are some new features like host_response_rate, extra_people and guest_included. But most of the standout features have been shared with the Boston machine learning model. We can see that cleaning_fee is the most important feature here, as larger rooms require more cleaning, perhaps more bathrooms, and more amenities.
 
+![]9https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/images/image3.png
 # Features that plays an important role:
 
 Training the machine learning model we can examine how amenities plays an important role in revenue generation. In Boston, facilities like television & Internet are the most important deciding factor. Place which provides a friendly and family environment scores the most.An interesting data is that Seattle tops in amenities as 180 when compared to Boston 125.Seattle boast some extra amenites when compared to Boston, like Amazon Echo, Wooden Floors, Dinning Area, and Memory Foam Mattress. The choise of these amenities are guest dependent therefore hosts provide these facilities as much as they can. First-aid-kit is looked as an Very important add-on in Seattle.
 
+![](https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/images/image4.png)
 
 
 
