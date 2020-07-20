@@ -66,11 +66,11 @@ Training the machine learning model we can examine how amenities plays an import
 
 * In Boston, facilities like television & Internet are the most important deciding factor. Place which provides a friendly and family environment scores the most.An interesting data is that Seattle tops in amenities as 180 when compared to Boston 125.
 
-![](https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/Analysis%20of%20AirBnb/images/image1.png)
+![](https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/Analysis%20of%20AirBnb/images/image3.png)
 
 * Seattle boast some extra amenites when compared to Boston, like Amazon Echo, Wooden Floors, Dinning Area, and Memory Foam Mattress. The choise of these amenities are guest dependent therefore hosts provide these facilities as much as they can. First-aid-kit is looked as an Very important add-on in Seattle.
 
-![](https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/Analysis%20of%20AirBnb/images/image1.png)
+![](https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/Analysis%20of%20AirBnb/images/image4.png)
 
 
 
