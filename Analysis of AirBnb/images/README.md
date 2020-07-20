@@ -58,14 +58,15 @@ Latitude and longitude are among the main important features, since the price of
 
 Facilities provided by the hosts are looked as an important feature by the travellers. There are some new features like host_response_rate, extra_people and guest_included. But most of the standout features have been shared with the Boston machine learning model. We can see that cleaning_fee is the most important feature here, as larger rooms require more cleaning, perhaps more bathrooms, and more amenities.
 
-![]9https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/images/image2.png
+![](https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/images/image2.png)
+
 # Features that plays an important role:
 
 Training the machine learning model we can examine how amenities plays an important role in revenue generation. 
 
 * In Boston, facilities like television & Internet are the most important deciding factor. Place which provides a friendly and family environment scores the most.An interesting data is that Seattle tops in amenities as 180 when compared to Boston 125.
 
-![]9https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/images/image3.png
+![](https://github.com/Lalchand-M/Portfolio-for-Data-Science/blob/master/images/image3.png)
 
 * Seattle boast some extra amenites when compared to Boston, like Amazon Echo, Wooden Floors, Dinning Area, and Memory Foam Mattress. The choise of these amenities are guest dependent therefore hosts provide these facilities as much as they can. First-aid-kit is looked as an Very important add-on in Seattle.
 
