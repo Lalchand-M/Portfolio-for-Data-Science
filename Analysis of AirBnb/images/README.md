@@ -46,6 +46,8 @@ The 99% listing price is below 600 and we omit the rows above 600 for a more sta
 
 GradientBoostingRegressor was used as a classifier for both data sets and a GridSearch CV of five times was applied to find the best hyperparameter for the classifier. On the other hand, 1/5 of the preprocessed data set was used as test data and the remaining 4/5 were used to train the learning model.
 
+![](Analysis of AirBnb/images/image1.png)
+
 # Vital Features in deciding the Rental Price:
 
 # In Boston:
