@@ -53,7 +53,7 @@ GradientBoostingRegressor was used as a classifier for both data sets and a Grid
 
 Latitude and longitude are among the main important features, since the price of a rental largely depends on the location of the property. Host_since is a feature that when hosts start their journey with AirBNB, if there is AirBNB upon starting the host, they probably know that they attract people and make their guests feel more comfortable. Reviews_per_month and number_of_reviews give us information about people who are not only ready to be there, but also leave a comment, which means they enjoy the stay. Some other features like fit, tank_safety and bathroom are also listed above.
 
-![](/images/image1.png)
+![](/Analysis%20of%20AirBnb/images/image1.png)
 # In Seattle:
 
 Facilities provided by the hosts are looked as an important feature by the travellers. There are some new features like host_response_rate, extra_people and guest_included. But most of the standout features have been shared with the Boston machine learning model. We can see that cleaning_fee is the most important feature here, as larger rooms require more cleaning, perhaps more bathrooms, and more amenities.
