@@ -1,4 +1,5 @@
-#%% Imports and functions declarations
+# Imports and functions declarations
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -95,9 +96,12 @@ def intersection(linkedlist_1: LinkedList, linkedlist_2: LinkedList) -> list:
     return linked_list
 
 
-#%% Test Official
+# Test Official
+
 # Normal Cases:
+
 # Test case 1
+
 linked_list_1 = LinkedList()
 linked_list_2 = LinkedList()
 
@@ -116,6 +120,7 @@ print(intersection(linked_list_1, linked_list_2))
 # 4 -> 6 -> 21 ->
 
 # Test case 2
+
 linked_list_3 = LinkedList()
 linked_list_4 = LinkedList()
 
@@ -133,7 +138,9 @@ print(union(linked_list_3, linked_list_4))
 print(intersection(linked_list_3, linked_list_4))
 #
 
+
 # Test case 3
+
 linked_list_5 = LinkedList()
 linked_list_6 = LinkedList()
 
@@ -153,7 +160,9 @@ print(intersection(linked_list_5, linked_list_6))
 
 
 # Edge Cases:
+
 # Test case 4
+
 linked_list_7 = LinkedList()
 linked_list_8 = LinkedList()
 
@@ -172,6 +181,7 @@ print(intersection(linked_list_7, linked_list_8))
 #
 
 # Test case 5
+
 linked_list_9 = LinkedList()
 linked_list_10 = LinkedList()
 
