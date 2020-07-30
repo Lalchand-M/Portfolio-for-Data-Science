@@ -1,4 +1,5 @@
-#%% Imports and functions declarations
+# Imports and functions declarations
+
 def rearrange_digits(input_list: list, first_layer: bool = False) -> list:
     """
         Rearrange Array Elements so as to form two number such that their sum is maximum.
@@ -32,8 +33,9 @@ def merge(left: list, right: list, first_layer: bool = False) -> list:
         num_max_left = ''
         num_max_right = ''
         num_to_left = True
-
-        # Alternating between left and right indexes
+        
+# Alternating between left and right indexes
+        
         while left_index < len(left) and right_index < len(right):
             if left[left_index] > right[right_index]:
                 if num_to_left:
@@ -50,7 +52,8 @@ def merge(left: list, right: list, first_layer: bool = False) -> list:
 
             num_to_left = not num_to_left  # Distribute the numbers on each of the list
 
-        # Exhausting remaining index
+# Exhausting remaining index
+        
         while left_index < len(left):   # left index is not exhausted
             if num_to_left:
                 num_max_left = str(left[left_index]) + num_max_left
@@ -72,6 +75,7 @@ def merge(left: list, right: list, first_layer: bool = False) -> list:
         return [int(num_max_left), int(num_max_right)]
 
     else:  # Normal merging case
+        
         while left_index < len(left) and right_index < len(right):
             if left[left_index] > right[right_index]:
                 merged.append(right[right_index])
@@ -95,8 +99,10 @@ def test_function(test_case):
         print("Fail")
 
 
-#%% Testing - Official
+# Testing - Official
+
 # Normal cases
+
 print('Normal Cases:')
 print('Test 1:')
 list_num = [1, 2, 3, 4, 5]
@@ -123,6 +129,7 @@ else:
     print("Fail \n")
 
 # Edge cases
+
 print('Edge Cases:')
 print('Test 4:')
 list_num = [1, 1, 1]
