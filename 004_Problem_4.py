@@ -1,105 +1,52 @@
-# Imports and function declaration
-
-class Group(object):
-    
-    def __init__(self, _name):
-        
-        self.name = _name
-        
-        self.groups = []
-        
-        self.users = []
-
-    def add_group(self, group):
-        
-        self.groups.append(group)
-
-    def add_user(self, user):
-        
-        self.users.append(user)
-
-    def get_groups(self):
-        
-        return self.groups
-
-    def get_users(self):
-        
-        return self.users
-
-    def get_name(self):
-        
-        return self.name
-
-
-def is_user_in_group(user, group):
+#%% Imports and functions declaration
+def sort_012(input_list):
     """
-    Return True if user is in the group, False otherwise.
+    Given an input array consisting on only 0, 1, and 2, sort the array in a single traversal.
 
     Args:
-      user(str): user name/id
-      group(class:Group): group to check user membership against
+       input_list(list): List to be sorted
     """
+    i = 0
+    i_null = 0
+    i_two = len(input_list) - 1
 
-    if user in group.get_users():  # User found
-        
-        return True
-    
-    else:
-        
-        if len(group.get_groups()) == 0:  # Keep searching
-            
-            return False
-        
+    while i <= i_two:
+        if input_list[i] == 0:
+            input_list[i] = input_list[i_null]
+            input_list[i_null] = 0
+            i_null += 1
+            i += 1
+
+        elif input_list[i] == 2:
+            temp_val = input_list[i_two]
+            input_list[i_two] = 2
+            input_list[i] = temp_val
+            i_two -= 1
+
         else:
-            
-            for sub_group in group.get_groups():
-                
-                found = is_user_in_group(user, sub_group)
+            i += 1
 
-                if found:
-                    
-                    return True
-    return False
+    return input_list
 
 
-# Testing official
+def test_function(test_case):
+    sorted_array = sort_012(test_case)
+    print(sorted_array)
+    if sorted_array == sorted(test_case):
+        print("Pass")
+    else:
+        print("Fail")
 
-# Testing preparation
-
-parent = Group("parent")
-child = Group("child")
-sub_child = Group("subchild")
-
-sub_child_user = "sub_child_user"
-sub_child.add_user(sub_child_user)
-
-child.add_group(sub_child)
-parent.add_group(child)
-
-# Normal Cases:
-
+#%% Testing - Official
+# Normal cases
 print('Normal Cases:')
+test_function([0, 0, 2, 2, 2, 1, 1, 1, 2, 0, 2])
+test_function([2, 1, 2, 0, 0, 2, 1, 0, 1, 0, 0, 2, 2, 2, 1, 2, 0, 0, 0, 2, 1, 0, 2, 0, 0, 1])
+test_function([0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2])
+print('\n')
 
-print(is_user_in_group(user='parent_user', group=parent))
-
-# False
-
-print(is_user_in_group(user='child_user', group=parent))
-
-# False
-
-print(is_user_in_group(user='sub_child_user', group=parent), '\n')
-
-# True
-
-# Edge Cases:
-
+# Edge cases
 print('Edge Cases:')
-
-print(is_user_in_group(user='', group=parent))
-
-# False
-
-print(is_user_in_group(user='', group=child))
-
-# False
+test_function([0, 1, 1, 0, 1])
+test_function([0, 0, 0])
+test_function([])
