@@ -1,4 +1,5 @@
-#%% Imports and functions declaration
+# Imports and functions declaration
+
 def sqrt(number: int) -> int:
     """
     Calculate the floored square root of a number
@@ -32,8 +33,10 @@ def sqrt(number: int) -> int:
 
     return result
 
-#%% Testing - Official
+# Testing - Official
+
 # Normal cases
+
 print('Normal Cases:')
 print("Pass" if (0 == sqrt(0)) else "Fail")
 print("Pass" if (1 == sqrt(1)) else "Fail")
@@ -42,6 +45,7 @@ print("Pass" if (4 == sqrt(16)) else "Fail")
 print("Pass \n" if (5 == sqrt(27)) else "Fail \n")
 
 # Edge cases
+
 print('Edge Cases:')
 print("Pass" if (None == sqrt(-1)) else "Fail")
 print("Pass" if (99380 == sqrt(9876543210)) else "Fail")
