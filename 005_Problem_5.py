@@ -1,5 +1,3 @@
-# Imports and functions declaration
-
 
 class TrieNode(object):
     
@@ -93,7 +91,7 @@ class Trie(object):
         return node
 
 
-# Testing - DEV
+######## Case - DEV ########
 
 MyTrie = Trie()
 
