@@ -56,7 +56,7 @@ Description:
 """
 
 
-#Groups
+######Groups########
 parent = Group("parent")
 
 child1 = Group("child1")
@@ -68,7 +68,7 @@ sub_child12 = Group("subchild12")
 sub_child21 = Group("subchild21")
 sub_child22 = Group("subchild22")
 
-#Users
+#######Users########
 parent_user_1 = "parent_user_1"
 child1_user_1 = "child1_user_1"
 child2_user_1 = "child2_user_1"
@@ -113,38 +113,38 @@ sub_child22.add_user(sub_child22_user_1)
 sub_child22.add_user(sub_child22_user_2)
 
 
-# Parent1 in Parent
+####### Parent1 in Parent ########
 print ("Pass" if (is_user_in_group(parent_user_1, parent) == True) else "Fail")
 
-# Parent2 in Parent
+####### Parent2 in Parent ##########
 print ("Pass" if (is_user_in_group(parent_user_2, parent) == True) else "Fail")
 
-# Child1_1 in Parent
+######### Child1_1 in Parent #################
 print ("Pass" if (is_user_in_group(child1_user_1, parent) == True) else "Fail")
 
-# Child1_2 in Parent
+########### Child1_2 in Parent #################
 print ("Pass" if (is_user_in_group(child1_user_2, parent) == True) else "Fail")
 
-# Child2_1 in Parent
+############ Child2_1 in Parent ##################
 print ("Pass" if (is_user_in_group(child2_user_1, parent) == True) else "Fail")
 
-# Child2_2 in Parent
+######### Child2_2 in Parent ##################
 print ("Pass" if (is_user_in_group(child2_user_2, parent) == True) else "Fail")
 
-# SubChild11_1 in Parent
+############ SubChild11_1 in Parent #################
 print ("Pass" if (is_user_in_group(sub_child11_user_1, parent) == True) else "Fail")
 
-# SubChild11_2 in Parent
+############# SubChild11_2 in Parent ###############
 print ("Pass" if (is_user_in_group(sub_child11_user_2, parent) == True) else "Fail")
 
-# SubChild22_1 in Parent
+############# SubChild22_1 in Parent ############
 print ("Pass" if (is_user_in_group(sub_child21_user_1, parent) == True) else "Fail")
 
-# SubChild22_2 in Parent
+################ SubChild22_2 in Parent ################
 print ("Pass" if (is_user_in_group(sub_child21_user_2, parent) == True) else "Fail")
 
 # Subchild22_2 in Child1
 print ("Pass" if (is_user_in_group(sub_child22_user_2, child1) == False) else "Fail")
 
-# Subchild11_1 in Child2
+######## Subchild11_1 in Child2###############
 print ("Pass" if (is_user_in_group(sub_child11_user_1, child2) == False) else "Fail")
