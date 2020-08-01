@@ -44,7 +44,7 @@ class BlockChain(object):
         """ Search the BlockChain for a node with the requested value and return the node. """
 
         if self.tail is None:
-            print("Please 'append' data on the BlockChain before searching for it")
+            print(" 'append' data on the BlockChain before searching for it")
             return
 
         else:
