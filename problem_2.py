@@ -32,7 +32,7 @@ def find_files(suffix, path):
 
 ########### Default Case ##########
 print("Case 1")
-print(find_files('.c', './Problem 2/t_dir'))
+print(find_files('.m', './Problem 2/t_dir'))
 
 ######### Print file ############
 print("Case 2")
@@ -48,4 +48,4 @@ print(find_files('.g', './abcd'))
 
 ################### Empty Directory############
 print("Case 5")
-print(find_files('.c', './Problem 2/emp_dir'))
+print(find_files('.y', './Problem 2/emp_dir'))
