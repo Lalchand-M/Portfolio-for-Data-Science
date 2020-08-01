@@ -81,8 +81,8 @@ def llist_deepcopy(llist):
         node = node.next
     return new_list
 
-# **** Test case 1 ****
-# Normal Inputs
+##### case 1 #######
+##### Normal Input #####
 
 linked_list_1 = LinkedList()
 linked_list_2 = LinkedList()
@@ -97,13 +97,13 @@ for i in element_2:
     linked_list_2.append(i)
 
 print (union(linked_list_1,linked_list_2))
-# 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 21 -> 6 -> 32 -> 4 -> 9 -> 6 -> 1 -> 11 -> 21 -> 1 -> 
+####### 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 21 -> 6 -> 32 -> 4 -> 9 -> 6 -> 1 -> 11 -> 21 -> 1 -> 
 print (intersection(linked_list_1,linked_list_2))
-# 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 21 -> 
+####### 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 21 -> 
 
 
-# **** Test case 2 ****
-# No Intersection
+######### Case 2 ########
+####### No Intersection ##########
 
 linked_list_3 = LinkedList()
 linked_list_4 = LinkedList()
@@ -118,13 +118,13 @@ for i in element_2:
     linked_list_4.append(i)
 
 print (union(linked_list_3,linked_list_4))
-# 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 23 -> 1 -> 7 -> 8 -> 9 -> 11 -> 21 -> 1 -> 
+####### 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 23 -> 1 -> 7 -> 8 -> 9 -> 11 -> 21 -> 1 -> 
 print (intersection(linked_list_3,linked_list_4))
-# (No Output)
+####### (No Output)
 
 
-# **** Test case 3 ****
-# Element 1 empty
+###### Case 3 ######
+######## Element 1 empty
 
 linked_list_3 = LinkedList()
 linked_list_4 = LinkedList()
@@ -139,13 +139,13 @@ for i in element_2:
     linked_list_4.append(i)
 
 print (union(linked_list_3,linked_list_4))
-# 1 -> 7 -> 8 -> 9 -> 11 -> 21 -> 1 -> 
+######### 1 -> 7 -> 8 -> 9 -> 11 -> 21 -> 1 -> 
 print (intersection(linked_list_3,linked_list_4))
-# (No Output)
+########## (No Output)
 
 
-# **** Test case 4 ****
-# Element 2 empty
+###### Case 4 #########
+########## Element 2 empty ##########
 
 linked_list_3 = LinkedList()
 linked_list_4 = LinkedList()
@@ -160,13 +160,13 @@ for i in element_2:
     linked_list_4.append(i)
 
 print (union(linked_list_3,linked_list_4))
-# 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 23 -> 
+######## 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 23 -> 
 print (intersection(linked_list_3,linked_list_4))
-# (No Output)
+######### (No Output)
 
 
-# **** Test case 5 ****
-# Element 1 None
+###### Case 5 #######
+###### Element 1 None #######
 
 linked_list_3 = LinkedList()
 linked_list_4 = LinkedList()
@@ -178,13 +178,13 @@ for i in element_2:
     linked_list_4.append(i)
 
 print (union(linked_list_3,linked_list_4))
-# 1 -> 7 -> 8 -> 9 -> 11 -> 21 -> 1 -> 
+####### 1 -> 7 -> 8 -> 9 -> 11 -> 21 -> 1 -> 
 print (intersection(linked_list_3,linked_list_4))
-# (No Output)
+####### (No Output)
 
 
-# **** Test case 6 ****
-# Element 2 None
+###### Case 6 #####
+#### Element 2 None ####
 
 linked_list_3 = LinkedList()
 linked_list_4 = LinkedList()
@@ -196,13 +196,13 @@ for i in element_1:
     linked_list_3.append(i)
 
 print (union(linked_list_3,linked_list_4))
-# 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 23 -> 
+#### 3 -> 2 -> 4 -> 35 -> 6 -> 65 -> 6 -> 4 -> 3 -> 23 -> 
 print (intersection(linked_list_3,linked_list_4))
-# (No Output)
+#### (No Output)
 
 
-# **** Test case 7 ****
-# Identical list
+##### Case 7 #######
+#### Identical list ######
 
 linked_list_3 = LinkedList()
 linked_list_4 = LinkedList()
@@ -217,13 +217,13 @@ for i in element_2:
     linked_list_4.append(i)
 
 print (union(linked_list_3,linked_list_4))
-# 1 -> 2 -> 3 -> 4 -> 1 -> 2 -> 3 -> 4 ->
+###### 1 -> 2 -> 3 -> 4 -> 1 -> 2 -> 3 -> 4 ->
 print (intersection(linked_list_3,linked_list_4))
-# 1 -> 2 -> 3 -> 4 -> 
+####### 1 -> 2 -> 3 -> 4 -> 
 
 
-# **** Test case 8 ****
-# Same Reference
+####### case 8 ########
+###### Same Reference #######
 
 linked_list_3 = LinkedList()
 
@@ -233,6 +233,6 @@ for i in element_1:
     linked_list_3.append(i)
 
 print (union(linked_list_3,linked_list_3))
-# 1 -> 2 -> 3 -> 4 -> 1 -> 2 -> 3 -> 4 -> 
+####### 1 -> 2 -> 3 -> 4 -> 1 -> 2 -> 3 -> 4 -> 
 print (intersection(linked_list_3,linked_list_3))
-# 1 -> 2 -> 3 -> 4 -> 
+####### 1 -> 2 -> 3 -> 4 -> 
