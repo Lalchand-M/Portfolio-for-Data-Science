@@ -30,22 +30,22 @@ def find_files(suffix, path):
 			output.append(item_path)
 	return output
 
-# Default test
-print("Test 1")
-print(find_files('.c', './Problem 2/testdir'))
+########### Default Case ##########
+print("Case 1")
+print(find_files('.c', './Problem 2/t_dir'))
 
-# Prints every file
-print("Test 2")
-print(find_files('', './Problem 2/testdir'))
+######### Print file ############
+print("Case 2")
+print(find_files('', './Problem 2/t_dir'))
 
-# Non existent extension
-print("Test 3")
-print(find_files('.z', './Problem 2/testdir'))
+################# Non existent of extension ############
+print("Case 3")
+print(find_files('.z', './Problem 2/t_dir'))
 
-# Non existent directory
-print("Test 4")
-print(find_files('.c', './asdf'))
+################# Non existent of directory ###############
+print("Case 4")
+print(find_files('.g', './abcd'))
 
-# Empty Directory
-print("Test 5")
-print(find_files('.c', './Problem 2/emptydir'))
+################### Empty Directory############
+print("Case 5")
+print(find_files('.c', './Problem 2/emp_dir'))
