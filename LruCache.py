@@ -7,7 +7,7 @@ class LRU_Cache(object):
     
     def __init__(self, capacity):
         
-        # Initialize class variables
+        ############################################
         
         self.cache = OrderedDict()
         
@@ -17,9 +17,9 @@ class LRU_Cache(object):
         
       ###########################################
 
-        try:  # If value in the cache
+        try:  #####################################
 
-            # Update priority due to access
+            
             
             value = self.cache.pop(key)
             
