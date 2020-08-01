@@ -105,7 +105,7 @@ class Huffman_Coding:
 if __name__ == "__main__":
     huffman_coding = Huffman_Coding()
 
-    print("**** Test 1 ****\nRegular Sentence\n")
+    print("**** Case 1 ****\nRegular Sentence\n")
     test_sentence = "The bird is beautiful"
 
     print ("The size of the data is: {}\n".format(sys.getsizeof(test_sentence)))
@@ -122,7 +122,7 @@ if __name__ == "__main__":
     print ("The content of the encoded data is: {}\n".format(decoded_data))
 
 
-    print("**** Test 2 ****\nSingle Character\n")
+    print("**** Case 2 ****\nSingle Character\n")
     test_sentence = "z"
 
     print ("The size of the data is: {}\n".format(sys.getsizeof(test_sentence)))
@@ -139,7 +139,7 @@ if __name__ == "__main__":
     print ("The content of the encoded data is: {}\n".format(decoded_data))
 
 
-    print("**** Test 3 ****\nSingle Character Repeated\n")
+    print("**** Case 3 ****\nSingle Character Repeated\n")
     test_sentence = "zzzzzz"
 
     print ("The size of the data is: {}\n".format(sys.getsizeof(test_sentence)))
@@ -156,7 +156,7 @@ if __name__ == "__main__":
     print ("The content of the encoded data is: {}\n".format(decoded_data))
 
 
-    print("**** Test 4 ****\nSame Letter, Different Case\n")
+    print("**** Case 4 ****\nSame Letter, Different Case\n")
     test_sentence = "ddDDggGG"
 
     print ("The size of the data is: {}\n".format(sys.getsizeof(test_sentence)))
