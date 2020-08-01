@@ -1,4 +1,4 @@
-# Import and function declaration
+
 
 import os
 
@@ -37,28 +37,28 @@ def find_files(suffix, path):
     return path_files
 
 
-# Testing official
 
-# Testing preparation
+
+###########################
 
 path_base = os.getcwd() + '/testdir'
 
-# Normal Cases:
+# Normal#############################
 
 print(find_files(suffix='c', path=path_base))
 
-# ['t1.c', 'a.c', 'a.c', 'b.c']
+########################### ('t1.c', 'a.c', 'a.c', 'b.c')
 
 print(find_files(suffix='h', path=path_base))
 
-# ['t1.h', 'a.h', 'a.h', 'b.h']
+########################### ('t1.h', 'a.h', 'a.h', 'b.h')
 
 print(find_files(suffix='z', path=path_base))
 
-# []
+############################### []
 
-# Edge Cases:
+############## Edge###########################
 
 print(find_files(suffix='', path=path_base))
 
-# []
+########################### []
