@@ -171,6 +171,10 @@ if __name__ == "__main__":
 
     print ("The size of the decoded data is: {}\n".format(sys.getsizeof(decoded_data)))
     print ("The content of the encoded data is: {}\n".format(decoded_data))
+    
+    # Case 5
+    print('Case 5:')
+    test_sentence = ""
 
     print ("The size of the data is: {}\n".format(sys.getsizeof(test_sentence)))
     print ("The content of the data is: {}\n".format(test_sentence))
