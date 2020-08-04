@@ -32,7 +32,7 @@ class Blockchain:
         data = value
         previous_hash = self.current_block.hash if self.current_block else 0
         self.current_block = Block(timestamp, data, previous_hash)
-
+# Test#
 blockchain = Blockchain()
 
 
@@ -57,11 +57,11 @@ print(blockchain.size())
 print(blockchain.to_list())
 #
 
-# "search function"
+# Test "search function"
 print(blockchain.search('my balance: 145 | cash flow: +5 | final balance: 150'))
 # 
 
-# Edge:
+# Edge Case:
 print(blockchain.search('my balance: 1000 | cash flow: +100 | final balance: 1100'))
 # 
 
