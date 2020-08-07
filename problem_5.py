@@ -68,6 +68,7 @@ print(blockchain.search('my balance: 1000 | cash flow: +100 | final balance: 110
 blockchain = BlockChain()
 print(blockchain.search('my balance: 145 | cash flow: +5 | final balance: 150'))
 # 
+blockchain = BlockChain()
 
 blockchain.add_block(1)
 print(blockchain.current_block)
